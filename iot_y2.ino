@@ -142,22 +142,22 @@ void Set_ConfigABP_A(void)
   Serial.println(str1);
 
   //*********************************************************************
-  str1 = Send_Cmd("mac set_deveui FF1721AC76217120");
+  str1 = Send_Cmd("mac set_deveui xxxxx");
   Serial.print("set_deveui");
   Serial.println(str1);
 
   //*********************************************************************
-  str1 = Send_Cmd("mac set_devaddr 76217120");
+  str1 = Send_Cmd("mac set_devaddr xxxxx");
   Serial.print("set_devaddr");
   Serial.println(str1);
 
   //*********************************************************************
-  str1 = Send_Cmd("mac set_nwkskey 28AED22B7E1516A609CFABF715884F3C");
+  str1 = Send_Cmd("mac set_nwkskey xxxxx");
   Serial.print("set_nwkskey");
   Serial.println(str1);
 
   //*********************************************************************
-  str1 = Send_Cmd("mac set_appskey 1628AE2B7E15D2A6ABF7CF4F3C158809");
+  str1 = Send_Cmd("mac set_appskey xxxxx");
   Serial.print("set_appskey");
   Serial.println(str1);
 
